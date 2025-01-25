@@ -1,0 +1,34 @@
+# Django web framework
+Django==5.1.2
+
+# Database drivers (optional, depending on your database)
+psycopg2-binary==2.9.8  # For PostgreSQL
+mysqlclient==2.1.1      # For MySQL
+# sqlite3                 # Built into Python; no need to specify
+
+# Django extensions (optional, helpful for development)
+django-extensions==3.2.3
+
+# REST framework (if building APIs)
+djangorestframework==3.15.0
+
+# For handling environment variables
+python-decouple==3.8
+
+# Static file management
+whitenoise==6.5.0
+
+# Django authentication (optional, for JWT tokens)
+djangorestframework-simplejwt==5.4.0
+
+# Other utilities
+Pillow==10.0.1  # For image handling
+gunicorn==21.0.1  # For deployment
+
+# Testing tools
+pytest==7.4.2
+pytest-django==4.6.0
+
+# Security packages (optional)
+django-cors-headers==4.2.0  # For handling CORS in APIs
+# django-secure==1.0.2  # Additional security enhancements
